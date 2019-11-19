@@ -42,5 +42,5 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Git и жёлтые окружности"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Git и случайные окружности"))
         self.create_circle_btn.setText(_translate("MainWindow", "Создать окружность"))
